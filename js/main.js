@@ -2,7 +2,7 @@
 
 [Main Script]
 
-Project     : USNews - Multipurpose News, Magazine and Blog HTML5 Template
+Project     : MonoVN - Multipurpose News, Magazine and Blog HTML5 Template
 Author      : themelooks.com
 Author URI  : https://themeforest.net/user/themelooks
 
