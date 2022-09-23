@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong><i class="icon fa fa-plane"></i>
+                <a class="navbar-brand" href="index.html"><strong><i class="fa fa fa-user"></i>
                         MonoVN</strong></a>
 
                 <div id="sideNav" href="">
@@ -264,11 +264,12 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a  href="index.html"><i class="fa fa-dashboard"></i> Bảng điều khiển</a>
+                        <a href="index.html"><i class="fa fa-dashboard"></i> Bảng điều khiển</a>
                     </li>
 
-                    <li class="active-menu"> 
-                        <a href="ad-categories.html"><i class="active fa fa-tags"></i> Quản lý danh mục</a>
+                    <li>
+                        <a class="active-menu" href="ad-categories.html"><i class="active fa fa-tags"></i> Quản lý danh
+                            mục</a>
                     </li>
 
 
@@ -309,37 +310,137 @@
         <!-- /. NAV SIDE  -->
 
 
-        
+        <div id="page-wrapper">
+            <div class="header">
+                <h1 class="page-header">
+                    Quản lý danh mục tin tức <small>Tag</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Quản lý danh mục</a></li>
+                    <li class="active">Danh sách danh mục</li>
+                </ol>
 
-    </div>
+            </div>
+            <div id="page-inner">
+                <!-- Form Upload ảnh đại diện -->
 
-    <!-- JS Scripts-->
-    <!-- jQuery Js -->
-    <script src="../js/jquery-1.10.2.js"></script>
-    <!-- Bootstrap Js -->
-    <script src="../js/bootstrap.min.js"></script>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="board">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Tất cả danh mục
+                                </div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
 
-    <!-- Metis Menu Js -->
-    <script src="../js/jquery.metisMenu.js"></script>
-    <!-- Morris Chart Js -->
-    <!-- <script src="../js/morris/raphael-2.1.0.min.js"></script>
+
+                                                    <th><input type="checkbox" onclick="" /></th>
+                                                    <th>#</th>
+                                                    <th>Tên danh mục</th>
+                                                    <th>Tag</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <td><input type="checkbox" onclick="" /></td>
+                                                    <td>1</td>
+                                                    <td>Thời sư</td>
+                                                    <td>news</td>
+                                                </tr>
+                                                <tr class="info">
+                                                    <td><input type="checkbox" onclick="" /></td>
+                                                    <td>2</td>
+                                                    <td>Tin nóng</td>
+                                                    <td>hot-news</td>
+                                                </tr>
+                                                <tr class="warning">
+                                                    <td><input type="checkbox" onclick="" /></td>
+                                                    <td>3</td>
+                                                    <td>Thể thao</td>
+                                                    <td>sport</td>
+                                                </tr>
+                                                <tr class="danger">
+                                                    <td><input type="checkbox" onclick="" /></td>
+                                                    <td>4</td>
+                                                    <td>Giáo dục</td>
+                                                    <td>education</td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="board">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    Chỉnh sửa danh mục
+                                </div>
+                                <div class="panel-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="enterName">Tên danh mục</label>
+                                            <input type="email" class="form-control" id="enterName" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="enterTag">Tag</label>
+                                            <input type="password" class="form-control" id="enterTag" placeholder="">
+                                        </div>
+                                        
+                                        
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </form>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- JS Scripts-->
+            <!-- jQuery Js -->
+            <script src="../js/jquery-1.10.2.js"></script>
+            <!-- Bootstrap Js -->
+            <script src="../js/bootstrap.min.js"></script>
+
+            <!-- Metis Menu Js -->
+            <script src="../js/jquery.metisMenu.js"></script>
+            <!-- Morris Chart Js -->
+            <!-- <script src="../js/morris/raphael-2.1.0.min.js"></script>
 
     <script src="../js/morris/morris.js"></script> -->
 
-<!-- 
+            <!-- 
     <script src="../js/easypiechart.js"></script>
     <script src="../js/easypiechart-data.js"></script> -->
 
-    <script src="../js/Lightweight-Chart/jquery.chart.js"></script>
+            <script src="../js/Lightweight-Chart/jquery.chart.js"></script>
 
-    <!-- Custom Js -->
-    <script src="../js/custom-scripts.js"></script>
+            <!-- Custom Js -->
+            <script src="../js/custom-scripts.js"></script>
 
 
-    <!-- Chart Js -->
-    <script type="text/javascript" src="../js/Chart.min.js"></script>
-    <script type="text/javascript" src="../js/chartjs.js"></script>
+            <!-- Chart Js -->
+            <script type="text/javascript" src="../js/Chart.min.js"></script>
+            <script type="text/javascript" src="../js/chartjs.js"></script>
 </body>
 
 </html>
-
