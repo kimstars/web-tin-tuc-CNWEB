@@ -623,7 +623,7 @@ Author URI  : https://themeforest.net/user/themelooks
                 'switcherTitle': 'Main Colors:&lrm;',
                 'switcherColors': [{
                     bgColor: '#7eb507',
-                    filepath: 'css/colors/theme-color-1.css'
+                    filepath: 'css/theme-color-1.css'
                 }, {
                     bgColor: '#119ee6',
                     filepath: 'css/colors/theme-color-2.css'
